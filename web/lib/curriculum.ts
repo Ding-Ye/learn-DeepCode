@@ -46,7 +46,7 @@ export const CURRICULUM: ChapterMeta[] = [
     slug: "s04-provider-abstraction",
     num: "s04",
     title: { zh: "LLM Provider 抽象", en: "LLM provider abstraction" },
-    available: false,
+    available: true,
   },
   {
     slug: "s05-workflow-context",
@@ -73,7 +73,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "规划检查点 + JSONL 尝试日志",
       en: "Planning checkpoint + JSONL attempts",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s08-loop-detector",
@@ -82,7 +82,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "循环探测器 + 停滞 vs LLM 偏移",
       en: "Loop detector + stall vs LLM offset",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s09-memory-compaction",

@@ -1,0 +1,31 @@
+{
+  "id": "chatcmpl-abc123",
+  "object": "chat.completion",
+  "created": 1714508390,
+  "model": "gpt-4o-mini",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_abc123",
+            "type": "function",
+            "function": {
+              "name": "echo",
+              "arguments": "{\"text\":\"hi\"}"
+            }
+          }
+        ]
+      },
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 38,
+    "completion_tokens": 9,
+    "total_tokens": 47
+  }
+}

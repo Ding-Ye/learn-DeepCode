@@ -4,5 +4,8 @@ use (
 	./agents/s01-minimum-loop
 	./agents/s02-tool-registry
 	./agents/s03-config-loader
+	./agents/s04-provider-abstraction
 	./agents/s05-workflow-context
+	./agents/s07-planning-runtime
+	./agents/s08-loop-detector
 )

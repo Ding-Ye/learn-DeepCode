@@ -64,7 +64,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "可调用工具的 Runner",
       en: "Tool-capable agent runner",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s07-planning-runtime",
@@ -91,7 +91,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "记忆压缩（清空式策略）",
       en: "Memory compaction (clean-slate)",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s10-code-impl-workflow",

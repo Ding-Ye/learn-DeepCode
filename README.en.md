@@ -25,10 +25,10 @@
 | s03 | config-loader | 单 JSON 配置 + 阶段覆盖 | Single-JSON config + phase overrides | ✅ |
 | s04 | provider-abstraction | LLM Provider 抽象 | LLM provider abstraction | ✅ |
 | s05 | workflow-context | 不可变工作流上下文 | Immutable workflow context | ✅ |
-| s06 | tool-capable-runner | 可调用工具的 Runner | Tool-capable agent runner | ⏳ |
+| s06 | tool-capable-runner | 可调用工具的 Runner | Tool-capable agent runner | ✅ |
 | s07 | planning-runtime | 规划检查点 + JSONL 尝试日志 | Planning checkpoint + JSONL attempts | ✅ |
 | s08 | loop-detector | 循环探测器 + 停滞 vs LLM 偏移 | Loop detector + stall vs LLM offset | ✅ |
-| s09 | memory-compaction | 记忆压缩（清空式） | Memory compaction (clean-slate) | ⏳ |
+| s09 | memory-compaction | 记忆压缩（清空式） | Memory compaction (clean-slate) | ✅ |
 | s10 | code-impl-workflow | 文件级代码实现工作流 | File-by-file code implementation workflow | ⏳ |
 | s_full | integration | 端到端集成 | End-to-end integration | ⏳ |
 | App. A | multi-agent-philosophy | 附录 A · 多智能体编排哲学 | Appendix A · Multi-agent orchestration philosophy | ⏳ |

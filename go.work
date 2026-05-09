@@ -6,6 +6,8 @@ use (
 	./agents/s03-config-loader
 	./agents/s04-provider-abstraction
 	./agents/s05-workflow-context
+	./agents/s06-tool-capable-runner
 	./agents/s07-planning-runtime
 	./agents/s08-loop-detector
+	./agents/s09-memory-compaction
 )

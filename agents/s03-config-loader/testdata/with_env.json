@@ -1,0 +1,21 @@
+{
+  "agents": {
+    "defaults": {
+      "provider": "auto",
+      "model": "openai/gpt-5.4",
+      "maxTokens": 8192,
+      "temperature": 0.1
+    }
+  },
+  "providers": {
+    "openai": {
+      "apiKey": "${TEST_VAR}"
+    }
+  },
+  "tools": {
+    "defaultSearchServer": "filesystem"
+  },
+  "workspace": {
+    "root": "./deepcode_lab"
+  }
+}

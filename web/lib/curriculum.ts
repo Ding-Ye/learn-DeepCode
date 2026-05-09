@@ -40,7 +40,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "单 JSON 配置 + 阶段覆盖",
       en: "Single-JSON config + phase overrides",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s04-provider-abstraction",
@@ -55,7 +55,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "不可变工作流上下文",
       en: "Immutable workflow context",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s06-tool-capable-runner",

@@ -23,7 +23,7 @@
 | # | Slug | 章节标题（zh） | Title (en) | 状态 |
 |---|---|---|---|---|
 | s01 | minimum-loop | 最小智能体回路 | Minimum agent loop | ✅ |
-| s02 | tool-registry | 工具注册表 | Tool registry | ⏳ |
+| s02 | tool-registry | 工具注册表 | Tool registry | ✅ |
 | s03 | config-loader | 单 JSON 配置 + 阶段覆盖 | Single-JSON config + phase overrides | ⏳ |
 | s04 | provider-abstraction | LLM Provider 抽象 | LLM provider abstraction | ⏳ |
 | s05 | workflow-context | 不可变工作流上下文 | Immutable workflow context | ⏳ |

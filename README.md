@@ -63,6 +63,25 @@ go test ./...
 - **类型先于代码**：每章先写 struct/interface，再写实现 —— 这是和 Python 上游最大的风格差异。
 - **`testdata/` 全是真实 fixture**：从 Anthropic / OpenAI 实际 API 抓的 JSON，离线即可重放。
 
+## 多模型支持 / Multi-model support
+
+learn-DeepCode 从 s04 起原生支持 8 套常见后端（Anthropic / OpenAI / DeepSeek / Moonshot/Kimi / Qwen / Groq / OpenRouter / 自托管 vLLM/SGLang）。详见 [docs/zh/multi-model.md](docs/zh/multi-model.md) / [docs/en/multi-model.md](docs/en/multi-model.md)。
+
+```bash
+# DeepSeek
+DEEPSEEK_API_KEY=sk-... go run ./agents/s04-provider-abstraction \
+    -provider deepseek -model deepseek-chat "explain agent loop"
+
+# Qwen
+DASHSCOPE_API_KEY=sk-... go run ./agents/s04-provider-abstraction \
+    -provider qwen -model qwen-plus "explain agent loop"
+
+# Local vLLM
+go run ./agents/s04-provider-abstraction \
+    -provider local -base-url http://localhost:8000/v1 \
+    -model qwen2.5-coder-14b "explain agent loop"
+```
+
 ## 阅读顺序建议 / Suggested reading order
 
 1. **不熟 agent loop** → 顺序读 s01 → s02 → s06 → s_full（一周）

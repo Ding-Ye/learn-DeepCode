@@ -61,6 +61,25 @@ go test ./...
 - **Types before code** — every chapter ships its struct/interface declarations before the implementation. This is the biggest stylistic difference from the Python upstream.
 - **`testdata/` is all real fixtures** — JSON captured from real Anthropic / OpenAI APIs, replay-able offline.
 
+## Multi-model support
+
+learn-DeepCode supports 8 mainstream backends from s04 onward (Anthropic / OpenAI / DeepSeek / Moonshot/Kimi / Qwen / Groq / OpenRouter / self-hosted vLLM/SGLang). See [docs/en/multi-model.md](docs/en/multi-model.md).
+
+```bash
+# DeepSeek
+DEEPSEEK_API_KEY=sk-... go run ./agents/s04-provider-abstraction \
+    -provider deepseek -model deepseek-chat "explain agent loop"
+
+# Qwen
+DASHSCOPE_API_KEY=sk-... go run ./agents/s04-provider-abstraction \
+    -provider qwen -model qwen-plus "explain agent loop"
+
+# Local vLLM
+go run ./agents/s04-provider-abstraction \
+    -provider local -base-url http://localhost:8000/v1 \
+    -model qwen2.5-coder-14b "explain agent loop"
+```
+
 ## Suggested reading orders
 
 1. **New to agent loops** → s01 → s02 → s06 → s_full (one week)

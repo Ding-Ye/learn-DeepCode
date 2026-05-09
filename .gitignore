@@ -1,0 +1,44 @@
+# Skill working dir — must be ignored to keep upstream clone (~80MB) out of repo
+.learn/
+
+# Go
+*.exe
+*.test
+*.out
+bin/
+vendor/
+
+# Per-session binaries (Go binary defaults to dir name like "s01-minimum-loop")
+agents/*/s01-*
+agents/*/s02-*
+agents/*/s03-*
+agents/*/s04-*
+agents/*/s05-*
+agents/*/s06-*
+agents/*/s07-*
+agents/*/s08-*
+agents/*/s09-*
+agents/*/s10-*
+!agents/*/s*-*.go
+!agents/*/s*-*.md
+!agents/*/s*-*/
+agents/*/main
+agents/*/cmd
+
+# Node / web
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+.env*.local
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Test artifacts
+coverage.out
+*.prof

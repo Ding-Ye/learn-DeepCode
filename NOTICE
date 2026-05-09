@@ -1,0 +1,17 @@
+learn-DeepCode
+==============
+
+This repository is a learning companion to HKUDS/DeepCode (https://github.com/HKUDS/DeepCode),
+a multi-agent AI system for "Open Agentic Coding" — Paper2Code, Text2Web, and Text2Backend.
+
+Upstream license: MIT (Copyright (c) 2025 Data Intelligence Lab @ HKU).
+This learn-repo: MIT (Copyright (c) 2026 Ding-Ye).
+
+Pedagogy inspired by shareAI-lab/learn-claude-code
+(https://github.com/shareAI-lab/learn-claude-code): each chapter teaches one
+upstream mechanism by progressively building a tiny re-implementation in Go.
+
+This repo is NOT a fork or redistribution of DeepCode. The Go code here is
+independently re-implemented from the architectural patterns documented in
+the upstream Python source. Upstream source quotations under
+upstream-readings/ are reproduced under fair-use for educational commentary.

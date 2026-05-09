@@ -29,6 +29,7 @@ jobs:
           - s07-planning-runtime
           - s08-loop-detector
           - s09-memory-compaction
+          - s10-code-impl-workflow
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5

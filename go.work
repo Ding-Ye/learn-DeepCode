@@ -10,4 +10,5 @@ use (
 	./agents/s07-planning-runtime
 	./agents/s08-loop-detector
 	./agents/s09-memory-compaction
+	./agents/s10-code-impl-workflow
 )

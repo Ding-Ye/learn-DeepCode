@@ -1,0 +1,53 @@
+[
+  {
+    "finish_reason": "tool_calls",
+    "content": [],
+    "tool_calls": [
+      {
+        "id": "call_1",
+        "name": "write_file",
+        "args": {"file_path": "main.go", "content": "package main\n\nfunc main() {}\n"}
+      }
+    ]
+  },
+  {
+    "finish_reason": "stop",
+    "content": [
+      {"type": "text", "text": "Wrote main.go."}
+    ]
+  },
+  {
+    "finish_reason": "tool_calls",
+    "content": [],
+    "tool_calls": [
+      {
+        "id": "call_2",
+        "name": "write_file",
+        "args": {"file_path": "config.go", "content": "package main\n\nvar Config = \"\"\n"}
+      }
+    ]
+  },
+  {
+    "finish_reason": "stop",
+    "content": [
+      {"type": "text", "text": "Wrote config.go."}
+    ]
+  },
+  {
+    "finish_reason": "tool_calls",
+    "content": [],
+    "tool_calls": [
+      {
+        "id": "call_3",
+        "name": "write_file",
+        "args": {"file_path": "handler.go", "content": "package main\n\nfunc Handler() {}\n"}
+      }
+    ]
+  },
+  {
+    "finish_reason": "stop",
+    "content": [
+      {"type": "text", "text": "Wrote handler.go."}
+    ]
+  }
+]

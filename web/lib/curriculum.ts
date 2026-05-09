@@ -100,7 +100,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "文件级代码实现工作流",
       en: "File-by-file code implementation workflow",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s_full-integration",
